@@ -1,0 +1,40 @@
+.header {
+    background-color: #89c74a;
+    min-height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0% 10%;
+    font-size: calc(1px + 2vmin);
+    color: white;
+    overflow: auto;
+}
+
+.contact-container {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.phone-container {
+    align-items: center;
+    display: flex;
+    padding: 0% 5% 0% 0%;
+    border-right: 1px solid ;
+    margin: 0% 5% 0% 0%;
+}
+
+.header-icon {
+    padding: 0% 5% 0% 0%;
+}
+
+.mail-container {
+    align-items: center;
+    display: flex;
+}
+
+.login-container {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
