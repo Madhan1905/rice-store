@@ -1,0 +1,37 @@
+.product-item {
+    background-color: white;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.15);
+    flex: 1 1 auto;
+    text-align: center;
+    margin: 0% 1vw 0%;
+    padding: 2%;
+    height: 50vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-image-container {
+    display: flex;
+    height: 75%;
+    justify-content: center;
+}
+
+.product-image {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.product-name-text {
+    font-weight: bold;
+}
+
+.add-cart {
+    align-self: center;
+    background-color: #89c74a;
+    width: 50%;
+    height: 10%;
+    border-radius: 50px;
+    color: white;
+    cursor: pointer;
+}
